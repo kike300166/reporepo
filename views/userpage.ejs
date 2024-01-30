@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Listado de Productos</title>
-  <link rel="stylesheet" type="text/css" href="/stylesheets/stylecuadricula.css">
+  <title>Todos los Productos</title>
+  <link rel="heet" type="text/css" href="/stylesheets/stylecuadricula.css">
 </head>
 <body>
-  <a class="button" href="/login">Interfaz Administrativa</a>
-  <a class="button" href="/userini">Interfaz Pública</a>
-  <h1 class="my-title">Listado de Productos</h1>
+  <a class="button" href="/login">Administrador</a>
+  <a class="button" href="/userini">Público</a>
+  <h1 class="my-title">Lista de Productos</h1>
 
 
   <div class="filters">
@@ -19,7 +19,7 @@
   <div class="product-grid">
     <% producto.forEach(producto => { %>
       <div class="product">
-        <a href="/userini" class="compra">Comprar ahora</a>
+        <a href="/userini" class="compra">¡Compralo ahora!</a>
         <h2><%= producto.producto_name %></h2>
         <p>Precio: <%= producto.price %></p>
         <p>Descripción: <%= producto.description %></p>

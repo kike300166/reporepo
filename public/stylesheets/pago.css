@@ -18,12 +18,12 @@ body {
 h3 {
     margin-top: 0;
     font-size: 24px;
-    color: blue;
+    color: rgb(174, 0, 255);
     font-weight: bold;
 }
 
 h4 {
-    border: 2px solid blue;
+    border: 2px solid rgb(56, 3, 124);
     border-radius: 5px;
     padding: 10px;
     margin: 10px 0;
@@ -44,7 +44,7 @@ textarea {
 
 button {
     padding: 10px 20px;
-    background-color: blue;
+    background-color: rgba(142, 36, 212, 0.699);
     color: white;
     border: none;
     border-radius: 5px;

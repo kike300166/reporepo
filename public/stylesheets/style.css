@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #1100ffec;
 }
 form{
   display: flex;
@@ -25,7 +25,7 @@ input,
 textarea{
   background-color: transparent;
   padding: 12px 20px;
-  border: 1px solid #4D4D4D;
+  border: 1px solid #8a0ad48f;
   border-radius: 20px;
   font-size: 16px;
   outline: none;

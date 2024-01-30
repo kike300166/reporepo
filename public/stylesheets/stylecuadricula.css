@@ -1,11 +1,11 @@
 /* Style the body */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #17191f7c;
+    background-color: #8e6eb8f5;
     margin: 0;
     padding: 20px;
     text-align: center;
-    color: #333;
+    color: #1411daec;
     border: 5px solid #E6E6E6;
   }
   
@@ -14,8 +14,8 @@ body {
     color: #ffffff;
     font-size: 24px;
     font-weight: bold;
-    border-bottom: 1px solid #283E5F;
-    box-shadow: 0 0 5px #283E5F;
+    border-bottom: 1px solid #37285f;
+    box-shadow: 0 0 5px #105fd6;
   }
   
   /* Style the product grid container */
@@ -32,7 +32,7 @@ body {
     width: 200px;
     height: 415px;
     margin:20px;
-    border: 1px solid #ccc;
+    border: 1px solid #0d0557f6;
     padding: 20px;
     text-align: center;
     background-color: #F2F2F2;
@@ -54,20 +54,20 @@ body {
     margin-bottom: 10px;
     font-size: 18px;
     font-weight: bold;
-    color: #333;
+    color: #0b2e8d;
   }
   
   /* Style the product price */
   .product p {
     margin-bottom: 5px;
-    color: #333;
+    color: #08239bbd;
   }
   
   /* Style the buttons */
   a.button {
     float: right;
     border-radius: 5px;
-    background-color: rgba(11, 228, 243, 0.5);
+    background-color: rgba(11, 139, 243, 0.678);
     color: #130707;
     margin-right: 20px;
     font-size: 15px;
@@ -83,7 +83,7 @@ body {
   
   a.button:hover {
     background-color: rgb(7, 22, 37)00;
-    box-shadow: inset 0 0 0 2em #a3aeb9;
+    box-shadow: inset 0 0 0 2em #7096bbe1;
   }
 
 .my-title {
@@ -93,7 +93,7 @@ body {
 }
 
 .compra {
-  background-color: #4CAF50; /* Green */
+  background-color: #3b69be; /* Green */
   border: none;
   color: rgb(14, 9, 9);
   padding: 15px 32px;

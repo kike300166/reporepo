@@ -3,7 +3,7 @@
 /* BASIC */
 
 html {
-  background-color: #56baed;
+  background-color: #0f20b6b6;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
 }
 
 a {
-  color: #92badd;
+  color: #6684e7da;
   display:inline-block;
   text-decoration: none;
   font-weight: 400;
@@ -25,7 +25,7 @@ h2 {
   text-transform: uppercase;
   display:inline-block;
   margin: 40px 8px 10px 8px; 
-  color: #cccccc;
+  color: #fafafada;
 }
 
 
@@ -51,13 +51,13 @@ h2 {
   max-width: 450px;
   position: relative;
   padding: 0px;
-  -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0 30px 60px 0 rgba(82, 54, 54, 0.733);
   box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
   text-align: center;
 }
 
 #formFooter {
-  background-color: #f6f6f6;
+  background-color: #f7f7f7;
   border-top: 1px solid #dce8f1;
   padding: 25px;
   text-align: center;
@@ -70,12 +70,12 @@ h2 {
 /* TABS */
 
 h2.inactive {
-  color: #cccccc;
+  color: #e7e7e7;s
 }
 
 h2.active {
   color: #0d0d0d;
-  border-bottom: 2px solid #5fbae9;
+  border-bottom: 2px solid #125ac7;
 }
 
 
@@ -83,7 +83,7 @@ h2.active {
 /* FORM TYPOGRAPHY*/
 
 input[type=button], input[type=submit], input[type=reset]  {
-  background-color: #56baed;
+  background-color: #0704bdcb;
   border: none;
   color: white;
   padding: 15px 80px;
@@ -92,8 +92,8 @@ input[type=button], input[type=submit], input[type=reset]  {
   display: inline-block;
   text-transform: uppercase;
   font-size: 13px;
-  -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
-  box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  -webkit-box-shadow: 0 10px 30px 0 rgba(205, 95, 233, 0.856);
+  box-shadow: 0 10px 30px 0 rgba(95, 97, 233, 0.767);
   -webkit-border-radius: 5px 5px 5px 5px;
   border-radius: 5px 5px 5px 5px;
   margin: 5px 20px 40px 20px;
@@ -105,7 +105,7 @@ input[type=button], input[type=submit], input[type=reset]  {
 }
 
 input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
-  background-color: #39ace7;
+  background-color: #1806b8;
 }
 
 input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
@@ -139,7 +139,7 @@ input[type=email] {
 
 input[type=email]:focus {
   background-color: #fff;
-  border-bottom: 2px solid #5fbae9;
+  border-bottom: 2px solid #181be0;
 }
 
 input[type=email]:placeholder {
@@ -169,7 +169,7 @@ input[type=password] {
   
   input[type=password]:focus {
     background-color: #fff;
-    border-bottom: 2px solid #5fbae9;
+    border-bottom: 2px solid #2b0fac;
   }
   
   input[type=password]:placeholder {
@@ -199,7 +199,7 @@ input[type=password] {
   
   input[type=text]:focus {
     background-color: #fff;
-    border-bottom: 2px solid #5fbae9;
+    border-bottom: 2px solid #041ca3;
   }
   
   input[type=text]:placeholder {
@@ -297,7 +297,7 @@ input[type=password] {
   bottom: -10px;
   width: 0;
   height: 2px;
-  background-color: #56baed;
+  background-color: #740cd6d2;
   content: "";
   transition: width 0.2s;
 }
